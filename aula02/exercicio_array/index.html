@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Aprendendo mais sobre funções</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <style>
+
+        #header {
+            width: 400px;
+            height: 100px;
+            background-color: darkslategray;
+            text-align: center;
+            padding-top: 5px;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 90px;
+        }
+
+        #section {
+            width: 398px;
+            height: 320px;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .entrada {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        
+        .entrada input {
+            margin-bottom: 10px;
+        }
+
+        .action {
+            margin-top: 10px;
+            margin-left: 80px;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            margin-left: 120px;
+        }
+
+    </style>
+    <body>
+        <header id="header">
+            <h1>Aprendendo sobre funções</h1>
+        </header>
+        <section id="section">
+            <div class="entrada">
+               <label>
+                     Valor Mínimo:
+                     <input type="text" id="minimo"/>
+               </label>
+               <br>
+               <label>
+                     Valor Máximo:
+                     <input type="text" id='maximo'/>
+               </label>           
+            </div>
+            <div class="action">
+               
+               <input type="button" value="Pares" id='pares'/> 
+               <input type="button" value="Fatorial" id='fatorial'/> 
+               <input type="button" value="Fibonacci" id='fibonacci'/>
+               <input type="button" value="Primo" id='primo'/>
+            </div>
+            <textarea id="resultado" rows="10"></textarea>
+            <script src="js/script.js"></script>
+        </section>
+        
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <style>
+
+        #hold {
+            width: 684px;
+            height: 600px;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        .cedulas {
+            width: 170px;
+            height: inherit;
+            border-left: 1px solid black;
+            float: left;
+        }
+
+        .titulo {
+            width: 100%;
+            height: 100px;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            box-sizing: border-box;
+            font-size: 22px;
+        }
+
+        .respostas {
+            width: 100%;
+            height: 500px;
+            padding: 55px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+
+    </style>
+    <body>
+        <div id="hold">
+            <div class="cedulas">
+                <div class="titulo">
+                    Números
+                </div>
+                <textarea class="respostas" id="numeros">
+
+                </textarea>
+            </div>
+            <div class="cedulas">
+                <div class="titulo">
+                    Pares
+                </div>
+                <textarea class="respostas" id="pares">
+                    
+                </textarea>
+            </div>
+            <div class="cedulas">
+                <div class="titulo">
+                    Quadrado
+                </div>
+                <textarea class="respostas" id="quadrado">
+
+                </textarea>
+            </div>
+            <div class="cedulas">
+                 <div class="titulo">
+                    Único
+                 </div>
+                 <textarea class="respostas" id="unico">
+                        
+                </textarea>
+            </div>
+        </div>
+        <input type="button" value="Mostrar" id="btnMostrar" onclick="mostrarNaTela(numerosAleatorios())">
+        <script src="js/script.js"></script>
+    </body>
+</html>
