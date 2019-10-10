@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+
+#titulo {
+    width: inherit;
+    height: 100px;
+    padding-top: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: #babcbf;
+}
+
+#container_opcoes {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opcoes {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.opcoes_select, .mensagem {
+    width: 200px;
+    height: inherit;
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.label {
+    width: 40px;
+    height: 20px;
+    float: left;
+}
+
+#inserir_valor{
+    width: 260px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mensagem {
+    width: 200px;
+    height: inherit;
+}
+
+#input_valor {
+    width: 200px;
+    height: inherit;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#resultado {
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resultado_caixa {
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-top: -50px;
+    margin-left: 80px;
+    float: left;
+    border: 1px solid black;
+}
