@@ -51,7 +51,7 @@ const prev = () => {
 
 
 insertSlide (loadImages(), $next);
-setInterval(prev, 4000);
+setInterval(next, 4000);
 
 $next.addEventListener('click', next);
 $prev.addEventListener('click', prev);
